@@ -23,7 +23,7 @@ public class MainActivity extends ActionBarActivity {
 		
 		vocab.setOnClickListener(new View.OnClickListener() {
 			
-			@Override
+			//@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent Vocab = new Intent("com.ChrisPoncio.englishmuffin.VOCABMENU");
