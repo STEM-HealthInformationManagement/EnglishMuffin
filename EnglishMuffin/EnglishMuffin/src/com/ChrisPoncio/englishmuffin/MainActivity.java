@@ -18,28 +18,24 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		vocab = (Button) findViewById(R.id.button1);
-		phrase = (Button) findViewById(R.id.button2);
+		final Button vocab = (Button) findViewById(R.id.button1);
+		final Button phrase = (Button) findViewById(R.id.button2);
 		
-		vocab.setOnClickListener(new View.OnClickListener() {
-			
+		vocab.setOnClickListener(new View.OnClickListener() {	
 			//@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				Intent Vocab = new Intent("com.ChrisPoncio.englishmuffin.VOCABMENU");
-				startActivity(Vocab);
-			}
+				startActivity(Vocab); }
 		});
-		
-		phrase.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
+		phrase.setOnClickListener(new View.OnClickListener() {	
+			//@Override
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
-				
+				Intent Phrase = new Intent("com.ChrisPoncio.englishmuffin.PHRASEMENU");
+				startActivity(Phrase);
 			}
 		});
-		
 	}
 
 	@Override

@@ -32,21 +32,24 @@
         android:src="@drawable/first_icon" />
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/button1"
-        android:layout_below="@+id/imageView1"
-        android:layout_marginTop="62dp"
-        android:text="@string/phrases" />
-
-    <Button
         android:id="@+id/button1"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
         android:layout_below="@+id/imageView1"
         android:layout_marginTop="18dp"
-        android:text="@string/vocabulary" />
+        android:text="@string/vocabulary"
+        android:onClick="onClick" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="18dp"
+        android:text="@string/phrases"
+        android:onClick="onClick" />
+
 
 </RelativeLayout>
