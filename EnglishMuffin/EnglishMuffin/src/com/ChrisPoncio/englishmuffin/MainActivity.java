@@ -13,7 +13,7 @@ public class MainActivity extends ActionBarActivity {
 	Button vocab;
 	Button phrase;
 
-	@Override
+	
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
