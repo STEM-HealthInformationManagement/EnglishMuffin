@@ -11,5 +11,9 @@
     <string name="muffin">Muffin</string>
     <string name="welcome_to">Welcome to</string>
     <string name="by_njcu_team">By NJCU Team</string>
+    <string name="voice">Speak</string>
+    <string name="firstWord">Large Text</string>
+    <string name="meaning1">TextView</string>
+    <string name="title_activity_menu_vocab">MenuVocab</string>
 
 </resources>
